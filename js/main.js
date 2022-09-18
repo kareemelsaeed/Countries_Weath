@@ -42,7 +42,7 @@ fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com
                 <div class="text-start row d-flex justify-content-evenly">
                     <div class="col-lg-6 lh-base" style="width: 10rem;">
                         <div class="fw-bold" style="font-size: 15px;">${myObj1[0]}</div>
-                        <div class="fw-bold" style="font-size: 15px;">Temp    : ${myObj1[1].C} c</div>
+                        <div class="fw-bold" style="font-size: 15px;">Temp : ${myObj1[1].c} C</div>
                         <div class="fw-bold" style="font-size: 15px;">precip : ${myObj1[2]}</div>
                         <div class="fw-bold" style="font-size: 15px;">humidity : ${myObj1[3]}</div>
                         <div class="fw-bold" style="font-size: 15px;">Wind : ${myObj1[4].km} km</div>
